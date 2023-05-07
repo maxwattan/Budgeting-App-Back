@@ -16,9 +16,6 @@ app.use("/transactions", transactionsController)
 app.get("/", (req, res) => {
     res.send("Welcome to the Budgeting App");
   })
-
-
-
   
   //404 page
   app.get("*", (req, res) => {
